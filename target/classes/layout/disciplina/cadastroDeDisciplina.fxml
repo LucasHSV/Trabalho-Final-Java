@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.sapiens.controllers.CadastroDeDisciplinaController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="53.0" layoutY="59.0" text="DESCRIÇÃO:" />
+            <Label layoutX="53.0" layoutY="132.0" text="CURSO:" />
+            <TextField fx:id="descricao" layoutX="142.0" layoutY="55.0" prefHeight="25.0" prefWidth="385.0" />
+            <ChoiceBox fx:id="curso" layoutX="112.0" layoutY="128.0" prefWidth="150.0" />
+            <Button onAction="#salvar" layoutX="274.0" layoutY="247.0" mnemonicParsing="false" text="SALVAR" />
+            <Label fx:id="id" layoutX="96.0" layoutY="261.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

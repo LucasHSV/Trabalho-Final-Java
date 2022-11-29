@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.sapiens.controllers.EfetuarMatriculaController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="90.0" layoutY="65.0" text="ALUNO:" />
+            <Label layoutX="90.0" layoutY="140.0" text="DISCIPLINA:" />
+            <Label layoutX="96.0" layoutY="220.0" text="PERÍODO:" />
+            <ChoiceBox fx:id="aluno" layoutX="148.0" layoutY="61.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="disciplina" layoutX="169.0" layoutY="136.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="periodo" layoutX="161.0" layoutY="216.0" prefWidth="150.0" />
+            <Button onAction="#salvar" layoutX="430.0" layoutY="149.0" mnemonicParsing="false" text="SALVAR" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
